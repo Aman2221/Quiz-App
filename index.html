@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Quize App</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="inner-div">
+            <h2 class="question">Qutions Appear HERE </h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class='answer'>
+                    <label for="ans1" id="option1">Answer 1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class='answer'>
+                    <label for="ans2" id="option2">Answer 2</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class='answer'>
+                    <label for="ans3" id="option3">Answer 3</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class='answer'>
+                    <label for="ans4" id="option4">Answer 4</label>
+                </li>
+            </ul>
+            <button id="submit">SUBMIT</button>
+
+            <div id="showScore" class="scoreArea">
+
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
