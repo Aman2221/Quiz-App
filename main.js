@@ -84,6 +84,7 @@ Submit.addEventListener('click', () => {
         loadQuetions();
     }
     else{
+        
         totalScore.classList.remove('scoreArea');
         totalScore.innerHTML = `<h3>Your total score is :<span id='score'>${score}</span></h3>
         <button class = 'btn' onclick='location.reload()' >Try again?</button>`;
